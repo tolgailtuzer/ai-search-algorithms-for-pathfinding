@@ -42,6 +42,8 @@ A* is a graph traversal and path search algorithm, which is often used in comput
 
 ### Greedy Hill Climbing worked fast but stuck at local optimum.
 
+### Time: 0.0008639 sec
+
 ### Total Distance: 450
 
 <p align="center">
@@ -49,6 +51,10 @@ A* is a graph traversal and path search algorithm, which is often used in comput
 </p>
 
 ### Simulated Annealing and A* Search found global optimum.
+
+### SA Time: 0.4463822 sec
+
+### A* Time: 0.4505473 sec
 
 ### Total Distance: 418
 
