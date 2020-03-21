@@ -1,5 +1,5 @@
 # About
-Pathfinding problem solve with the following methods:<br>
+Pathfinding problem solved with the following methods:<br>
 ## Greedy Hill Climbing
  In numerical analysis, hill climbing is a mathematical optimization technique which belongs to the family of local search. It is an iterative algorithm that starts with an arbitrary solution to a problem, then attempts to find a better solution by making an incremental change to the solution. If the change produces a better solution, another incremental change is made to the new solution, and so on until no further improvements can be found. The new solution point is selected based on heuristic info.
  
