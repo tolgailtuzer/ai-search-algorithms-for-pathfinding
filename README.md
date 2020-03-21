@@ -10,12 +10,12 @@ Simulated annealing (SA) is a probabilistic technique for approximating the glob
 A* is a graph traversal and path search algorithm, which is often used in computer science due to its completeness, optimality, and optimal efficiency.
 # Input Format
 <p align="center">
-  <img src="/Images/input_format.png">
+  <img src="/Images/input_format.png"  width="500">
 </p>
 
 # Example
 <p align="center">
-  <img src="/Images/romania_map.png">
+  <img src="/Images/romania_map_example.png">
 </p>
 
 ## Heuristics
@@ -40,17 +40,17 @@ A* is a graph traversal and path search algorithm, which is often used in comput
 - Vaslui, 199
 - Zerind, 374
 
-## Greedy Hill Climbing worked fast but stuck at local optimum.
+### Greedy Hill Climbing worked fast but stuck at local optimum.
 
-## Total Distance: 450
+### Total Distance: 450
 
 <p align="center">
   <img src="/Images/romania_map_localoptimum.gif">
 </p>
 
-## Simulated Annealing and A* Search found global optimum.
+### Simulated Annealing and A* Search found global optimum.
 
-## Total Distance: 418
+### Total Distance: 418
 
 <p align="center">
   <img src="/Images/romania_map_globaloptimum.gif">
