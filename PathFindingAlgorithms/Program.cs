@@ -32,6 +32,7 @@ namespace PathFindingAlgorithms
             GreedyHillClimbing.FindPath(start, target, true);
             stopWatch.Stop();
             Console.WriteLine("Elapsed Time: " + stopWatch.Elapsed);
+            stopWatch.Reset();
             //HillClimbingWithSimulatedAnnealing
             Console.WriteLine("--------------------------------------\nHill Climbing With Simulated Annealing\n--------------------------------------");
             stopWatch.Start();
@@ -39,6 +40,7 @@ namespace PathFindingAlgorithms
             HillClimbingWithSA.FindPath(start, target, true);
             stopWatch.Stop();
             Console.WriteLine("Elapsed Time: " + stopWatch.Elapsed);
+            stopWatch.Reset();
             //A*
             Console.WriteLine("---------\nA* Search\n---------");
             stopWatch.Start();
